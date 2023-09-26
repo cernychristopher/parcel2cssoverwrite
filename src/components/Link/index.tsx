@@ -1,7 +1,7 @@
 import cn from 'classnames'
 import * as React from 'react'
 
-import { Text } from 'shared/components/Text'
+import { Text } from 'components/Text'
 
 import styles from './styles.css'
 

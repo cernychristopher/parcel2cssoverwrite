@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import { Heading } from 'shared/components/Heading'
+import { Heading } from "components/Heading"
 
 type Props = Omit<React.ComponentProps<typeof Heading>, 'size'>
 

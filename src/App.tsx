@@ -4,7 +4,7 @@ import { createBrowserHistory } from 'history'
 import { Route, Router, Switch } from 'react-router-dom'
 
 import { Template } from 'components/template'
-import ErrorBoundary from 'shared/components/ErrorBoundary'
+import ErrorBoundary from 'components/ErrorBoundary'
 
 const FeatureC = React.lazy(() => import('./features/featureC/FeatureC'))
 const FeatureB = React.lazy(() => import('./features/featureB/FeatureB'))

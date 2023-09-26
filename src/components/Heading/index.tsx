@@ -3,7 +3,7 @@ import * as React from 'react'
 
 import styles from './styles.css'
 
-type Props ={
+type Props = {
     size: 'small' | 'medium' | 'large' | 'xlarge'
     className?: string
     children: React.ReactNode

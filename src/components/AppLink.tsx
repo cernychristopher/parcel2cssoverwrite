@@ -1,8 +1,8 @@
 import * as React from 'react'
 import { Link as ReactRouterLink } from 'react-router-dom'
 
-import { BaseLinkProps, useBaseLink } from 'shared/components/Link'
-import { Text } from 'shared/components/Text'
+import { BaseLinkProps, useBaseLink } from '/components/Link'
+import { Text } from 'components/Text'
 
 export type InternalProps = BaseLinkProps & {
     url: string
