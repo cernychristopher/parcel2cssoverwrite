@@ -1,0 +1,19 @@
+:root {
+    --header-height: 70px;
+    --app-padding: 40px;
+    --filter-2: 0.8;
+    --filter-3: 0.9;
+    --brand-basis: #fff;
+    --brand-basis-accent-stronger: #eee;
+    --brand-text: #333;
+    --brand-text-soft: #888;
+    --brand-text-inverse: var(--brand-basis);
+    --brand-primary: #f0f;
+    --brand-font-weight-standard: 200;
+    --brand-font-weight-bold: 400;
+    --brand-font-weight-strong: 600;
+    --brand-button-weight: var(--brand-font-weight-bold);
+    --brand-button-letter-spacing: 0.5px;
+    --brand-font-family: "Helvetica", "Arial", sans-serif;
+    --brand-font-size: 18px;
+}

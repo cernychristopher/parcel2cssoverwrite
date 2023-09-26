@@ -1,0 +1,18 @@
+a {
+  font-weight: var(--brand-font-weight-bold);
+  letter-spacing: 0;
+  text-decoration: underline;
+  color: inherit;
+  cursor: pointer;
+}
+
+a:hover,
+a:active {
+  color: inherit;
+  filter: brightness(var(--filter-2));
+}
+
+a:focus {
+  color: inherit;
+  outline: 3px solid currentColor;
+}

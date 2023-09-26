@@ -1,0 +1,74 @@
+.outerWrapper {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  background: var(--brand-basis);
+  min-height: 100vh;
+  height: 100vh;
+}
+
+.innerWrapper {
+  margin: 0;
+  padding: var(--app-padding);
+  list-style: none;
+  min-height: calc(100vh - var(--header-height));
+}
+
+.topNavbar {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  height: var(--header-height);
+  min-height: var(--header-height);
+  padding: 0 var(--app-padding);
+  background: var(--brand-basis);
+  border-bottom: 1px solid var(--brand-basis-accent-stronger);
+}
+
+.content {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.iconBar {
+  height: 100%;
+}
+
+.iconBarLink {
+  display: flex;
+  background-color: var(--brand-basis);
+  color: var(--brand-primary);
+  font-weight: var(--brand-button-weight);
+  letter-spacing: var(--brand-button-letter-spacing);
+  text-decoration: none;
+}
+
+.iconBarLinkText {
+  text-transform: none;
+  font-weight: var(--brand-font-weight-standard);
+  padding: 10px 15px;
+}
+
+.iconBarLink a {
+  text-decoration: none;
+}
+
+.iconBarLink:hover {
+  filter: brightness(var(--filter-3));
+}
+
+.iconBarLink:active,
+.iconBarLink:active .iconBarLinkText {
+  background-color: var(--brand-primary);
+  color: var(--brand-text-inverse);
+}
+
+.iconBarLink:active .icon {
+  color: var(--brand-basis);
+}
+
+.iconBarLink:focus:hover:active {
+  filter: brightness(var(--filter-5));
+}

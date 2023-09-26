@@ -1,0 +1,66 @@
+:global(.js-focus-visible :focus:not(.focus-visible)) {
+  outline: none;
+}
+
+body {
+  font-family: var(--brand-font-family);
+  font-weight: var(--brand-font-weight-standard);
+  margin: 0;
+}
+
+body,
+html {
+  color: var(--brand-text);
+  line-height: 1.7;
+  letter-spacing: 0.5px;
+  font-weight: var(--brand-font-weight-standard);
+  font-size: var(--brand-font-size);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  line-height: inherit;
+  margin: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  color: inherit;
+  text-transform: inherit;
+}
+
+a {
+  display: inline-block;
+  line-height: 100%;
+  padding: 1px 0;
+}
+
+strong {
+  font-weight: var(--brand-font-weight-strong);
+  letter-spacing: 0;
+}
+
+fieldset {
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-block-start: 0;
+  padding-inline-start: 0;
+  padding-inline-end: 0;
+  padding-block-end: 0;
+  border-width: 0;
+  margin: 0;
+}
+
+legend {
+  width: 100%;
+  padding: 0;
+}
+
+pre {
+  color: var(--brand-text-soft);
+  overflow: auto;
+  font-size: 16px;
+}
