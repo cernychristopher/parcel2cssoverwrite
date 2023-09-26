@@ -1,6 +1,6 @@
-import cn from "classnames";
 import * as React from 'react'
-
+import cn from "classnames";
+import { Text } from 'components/Text'
 import styles from './styles.css'
 
 type Props = {
@@ -13,22 +13,20 @@ export const Heading = ({ size, className, children }: Props) => {
     let as
     switch (size) {
         case 'small':
-            as = 'h3'
+            as = 'h3' as const
             break
         case 'medium':
-            as = 'h2'
+            as = 'h2' as const
             break
         case 'large':
         case 'xlarge':
-            as = 'h1'
+            as = 'h1' as const
             break
     }
 
-    return React.createElement(
-            as,
-            {
-                className: cn(className, size === 'xlarge' && styles.xlarge),
-            },
-            children
+    return (
+            <Text as={as} className={cn(className, size === 'xlarge' && styles.xlarge)}>
+                {children}
+            </Text>
     )
 }
