@@ -1,4 +1,4 @@
-Reproduction of an issue in [parcel 2.9.3](https://parceljs.org/)
+Reproduction of [an issue](https://github.com/parcel-bundler/parcel/issues/9277) in [parcel 2.9.3](https://parceljs.org/)
 
 # The issue
 
